@@ -66,6 +66,26 @@ console.log(c);
 
 
 
-for(let i=0; i < 15; ++i ){
+for(let i=15; i > 0; --i ){
     console.log(i);
 }
+
+for(let aa=0; aa < 16; ++aa){
+    console.log(aa);
+}
+
+let g =1;
+console.log(g);
+console.log(10 * ++g);
+console.log(g);
+
+let h =1;
+console.log(h);
+console.log(10 * h++);
+console.log(h);
+
+
+//unary operator changes value to negative or positive depending on the right side of line 90.
+let zz = 1;
+zz = -zz;
+console.log(zz);
