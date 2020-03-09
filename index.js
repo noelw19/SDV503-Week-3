@@ -12,7 +12,7 @@ console.log(y ** z);
 let i= 110;
 
 function myFunc(val) {
-    if(x + y === val){
+    if(x - y === val){
         return "yes";
     }else {
         return "nah";
@@ -21,4 +21,14 @@ function myFunc(val) {
 
 console.log(myFunc(i))
 
+
+let a = 10;
+
+console.log(a);
+console.log(++a);
+console.log(a);
+console.log(++a);
+console.log(a);
+console.log(++a)
+console.log(a);
 
