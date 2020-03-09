@@ -101,8 +101,18 @@ const secondWord = "World";
 console.log(`${firstWord} ${secondWord}`);
 console.log(firstWord + " " + secondWord);
 
+//HOMEWORK 
+
+/*my understanding of the issues below would be that when console.log is run it uses the 
+equality operator before printing a result, which in my understanding means it will check 
+if they are the same type, then proceed to convert if not, then will run a strict equality 
+test on it and will log the results*/
+
+
 console.log(10 - 5);
 console.log(10 - "5");
 console.log('10' * 5);
 console.log('10' + '10' + 5);
 
+console.log("string" + 4)
+console.log("str" + "str")
