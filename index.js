@@ -32,15 +32,6 @@ console.log(a);
 console.log(++a)
 console.log(a);
 
-/*function thirteenMore(val){
- if (a == 13){
-      val = 100;
- } else {
-      a = 14;
- }
-}
-
-console.log(thirteenMore(a))*/
 
 console.log(a);
 
@@ -116,3 +107,25 @@ console.log('10' + '10' + 5);
 
 console.log("string" + 4)
 console.log("str" + "str")
+
+
+
+// Second Weekly Class
+
+console.log(true == 1);
+console.log(false == 0);
+
+console.log("Raise" > "Race")
+
+//this returns true because the equality operator converts data types to the same and then runs the
+//equation, when "1" is converted to an integer both values will match.
+console.log(1 =="1");
+//same as above the string is converted to be checked against similar data types.
+console.log("34" == 34);
+
+
+
+
+
+
+
