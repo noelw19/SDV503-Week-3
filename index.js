@@ -65,7 +65,7 @@ console.log(b);
 console.log(c);
 
 
-
+//counting with increment & decrement
 for(let i=15; i > 0; --i ){
     console.log(i);
 }
@@ -74,6 +74,9 @@ for(let aa=0; aa < 16; ++aa){
     console.log(aa);
 }
 
+
+
+//showing that value for line 81 and 86 dont become the value of the variable, rather only the increment is added to var.
 let g =1;
 console.log(g);
 console.log(10 * ++g);
@@ -89,3 +92,11 @@ console.log(h);
 let zz = 1;
 zz = -zz;
 console.log(zz);
+
+//another way to concatinate variables.
+const firstWord = "Hello";
+const secondWord = "World";
+
+//by using this it allows you to concatenate alot of variables without having to manually add the spaces.
+console.log(`${firstWord} ${secondWord}`);
+console.log(firstWord + " " + secondWord);
