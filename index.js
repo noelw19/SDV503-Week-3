@@ -100,3 +100,9 @@ const secondWord = "World";
 //by using this it allows you to concatenate alot of variables without having to manually add the spaces.
 console.log(`${firstWord} ${secondWord}`);
 console.log(firstWord + " " + secondWord);
+
+console.log(10 - 5);
+console.log(10 - "5");
+console.log('10' * 5);
+console.log('10' + '10' + 5);
+
