@@ -32,3 +32,34 @@ console.log(a);
 console.log(++a)
 console.log(a);
 
+/*function thirteenMore(val){
+ if (a == 13){
+      val = 100;
+ } else {
+      a = 14;
+ }
+}
+
+console.log(thirteenMore(a))*/
+
+console.log(a);
+
+console.log(a++);
+console.log(a);
+console.log(a++);
+console.log(a);
+
+let b = 11;
+let c = b;
+
+console.log("pre-increment")
+
+b = ++c;
+console.log(b);
+console.log(c);
+
+console.log("post-increment");
+
+c = b++;
+console.log(b);
+console.log(c);
