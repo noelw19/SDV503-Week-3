@@ -63,3 +63,9 @@ console.log("post-increment");
 c = b++;
 console.log(b);
 console.log(c);
+
+
+
+for(let i=0; i < 15; ++i ){
+    console.log(i);
+}
