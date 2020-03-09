@@ -124,6 +124,74 @@ console.log(1 =="1");
 console.log("34" == 34);
 
 
+//null and undefined values
+
+//null means zero or nothing
+//undefined means a variable has not been assigned a value yet.
+
+console.log(null == 0);
+console.log(null === undefined);
+console.log(null > 0);
+console.log(null < 0);
+console.log(null >= 0);
+console.log(null + 1);
+
+
+//equality operator doesnt convert null to an integer, but when a greater than or less than
+//sign is used the null is converted to zero.
+
+console.log(undefined == 0);
+console.log(undefined > 0);
+
+//when trying to change an undefined.
+
+console.log(null + 1);
+console.log(undefined > 0);
+console.log(undefined + 1);
+
+//logical operators
+
+/*logical operators are used to compare values. Any type of values can be compared using logical operators*/
+
+// OR||
+// AND&&
+// NOT !
+
+console.log(true || true);
+console.log(false || true);
+console.log(true || false);
+console.log(false || false);
+
+console.log(true || 0);
+console.log(1 || false);
+console.log(true || 1);
+console.log(false || 1);
+console.log(false || 0);
+console.log(0 || 0);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
