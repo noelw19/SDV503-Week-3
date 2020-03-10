@@ -21,6 +21,12 @@ post:
 
 if we want to increment the values and use it later.
 
+we also spent some time in the second class for the week going over loagical operators, OR ||, AND &&, as well as the NOT EQUAL TO !==.
+
+OR being when either value is found to be true, AND being when both are true and NOT EQUAL TO will show a true when the values do not match.
+
+
+
 
 
  
